@@ -9,8 +9,5 @@ const actions = {
 };
 
 storiesOf("Component", module).add("Default", () => (
-  <Component
-    initialText={text("Text", "Hello")}
-    {...actions}
-  />
+  <Component text={text("Text", "Hello")} {...actions} />
 ));

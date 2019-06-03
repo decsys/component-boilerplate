@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import * as props from "./Component.props";
 
 // Build a Response Component as a React Functional Component
-const Component = ({ label, initialText, logResults }) => {
-  const [value, setValue] = useState(initialText);
-  useEffect(() => setValue(initialText), [initialText]);
+const Component = ({ label, text, logResults }) => {
+  const [value, setValue] = useState(text);
+  useEffect(() => setValue(text), [text]);
 
   const handleInput = ({ target }) => {
     setValue(target.value);

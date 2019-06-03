@@ -8,13 +8,13 @@ const params = {
 
 // Specify PropTypes for non-Configurable Props
 const staticPropTypes = {
-  initialText: PropTypes.string,
+  text: PropTypes.string,
   logResults: PropTypes.func.isRequired
 };
 
 // Specify Defaults for non-Configurable Props
 const staticDefaultProps = {
-  initialText: ""
+  text: ""
 };
 
 // Create merged propTypes, defaultProps
