@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/decsys/component-boilerplate.svg)
+
 # DECSYS Component Boilerplate
 
 This repository contains everything needed to create an Interactive Response Component for the DECSYS Survey Platform.
@@ -21,14 +23,25 @@ This repository contains everything needed to create an Interactive Response Com
 1. `npm run storybook` to test your component visually and interactively.
 1. `npm run build` to build a distributable version of your component which can be used in the Survey Platform.
 
->  ℹ For an example of how to build a component using this boilerplate, documentation will be linked here soon.
->
-> `//TODO: Add documentation`
+>  ℹ [Learn how to build a component from this boilerplate](https://github.com/decsys/component-boilerplate/wiki/Building-a-DECSYS-Response-Component)
 
 > ℹ The first party DECSYS components may also be interesting points of reference.
-> - Look for any repository that ends in `-component` in the DECSYS' GitHub organisation.
+> 
+> 👉 Look for any repository that ends in `-component` in the DECSYS' GitHub organisation.
 
 > ℹ [Check out the Wiki](https://github.com/decsys/component-boilerplate/wiki) for more detailed information.
+
+# Component Response Statistics
+
+> ℹ [Learn how to add statistics to a component](https://github.com/decsys/component-boilerplate/wiki/Component-Statistics)
+
+The boilerplate does not include statistics by default, as they are optional. For example the built-in [`confirmation-component`](https://github.com/decsys/confirmation-component) doesn't have any.
+
+Examples of stats can be found in the other built in components:
+- [`discrete-component`](https://github.com/decsys/discrete-component)
+- [`ellipse-component`](https://github.com/decsys/ellipse-component)
+- [`freetext-component`](https://github.com/decsys/freetext-component)
+
 
 # Licensing
 
