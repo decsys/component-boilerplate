@@ -10,8 +10,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "Jonathan Couldridge <jon@jon.gg>",
-  "license": "UNLICENSED",
+  "author": "",
+  "license": "AGPL-3.0-only",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@storybook/addon-actions": "^5.0.11",
