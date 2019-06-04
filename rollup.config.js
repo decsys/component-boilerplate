@@ -27,10 +27,21 @@ export default {
       react: "React",
       "styled-components": "styled",
       "react-dom": "ReactDOM",
-      "prop-types": "PropTypes"
+      "prop-types": "PropTypes",
+      "react-wordcloud": "reactWordCloud",
+      victory: "Victory",
+      mathjs: "math"
     }
   },
-  external: ["react", "styled-components", "react-dom", "prop-types"],
+  external: [
+    "react",
+    "styled-components",
+    "react-dom",
+    "prop-types",
+    "react-wordcloud",
+    "victory",
+    "mathjs"
+  ],
   plugins: [
     replace({
       "process.env.NODE_ENV": JSON.stringify("production")
