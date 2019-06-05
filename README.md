@@ -23,7 +23,7 @@ This repository contains everything needed to create an Interactive Response Com
 1. `npm run storybook` to test your component visually and interactively.
 1. `npm run build` to build a distributable version of your component which can be used in the Survey Platform.
 
->  ℹ [Learn how to build a component from this boilerplate](https://github.com/decsys/component-boilerplate/wiki/Building-a-DECSYS-Response-Component)
+>  ℹ [Learn how to build a component from this boilerplate](https://github.com/decsys/component-boilerplate/wiki/Making-a-DECSYS-Response-Component)
 
 > ℹ The first party DECSYS components may also be interesting points of reference.
 > 
