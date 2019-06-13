@@ -5,7 +5,8 @@ import { action } from "@storybook/addon-actions";
 import Component from "./Component";
 
 const actions = {
-  logResults: action("Results logged")
+  logResults: action("Results logged"),
+  setNextEnabled: action("Next button enabled")
 };
 
 storiesOf("Component", module).add("Default", () => (

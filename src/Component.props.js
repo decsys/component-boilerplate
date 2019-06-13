@@ -9,7 +9,8 @@ const params = {
 // Specify PropTypes for non-Configurable Props
 const staticPropTypes = {
   text: PropTypes.string,
-  logResults: PropTypes.func.isRequired
+  logResults: PropTypes.func.isRequired,
+  setNextEnabled: PropTypes.func.isRequired
 };
 
 // Specify Defaults for non-Configurable Props
