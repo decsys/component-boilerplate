@@ -43,7 +43,7 @@
   },
   "peerDependencies": {
     "prop-types": "~15",
-    "react": "~16",
+    "react": "~16.8",
     "styled-components": "~4",
     "victory": "~32",
     "mathjs": "~5",
