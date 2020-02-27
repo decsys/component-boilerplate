@@ -43,9 +43,9 @@
   },
   "peerDependencies": {
     "prop-types": "~15",
-    "react": "~16.8",
-    "styled-components": "~4",
-    "victory": "~32",
+    "react": "^16.8",
+    "styled-components": "~4 || ~5",
+    "victory": ">=32",
     "mathjs": "~5",
     "react-wordcloud": "~1"
   }
